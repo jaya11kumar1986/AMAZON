@@ -41,7 +41,8 @@ driver.findElement(By.id("multi")).click();
         System.out.println("Switched to the window with URL: " + driver.getCurrentUrl());
         
         // Perform further actions or close the driver
-        //driver.quit();
+        driver.quit();
+		driver.close();
 
 	}
 
